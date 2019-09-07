@@ -25,14 +25,16 @@ page.
 > DisplayWatcher you will want to delete the old pref pane from your
 > System Preferences, since I am using a new bundle ID to go with my
 > Apple Developer account so that I can properly code sign releases.
+>
 > That also means if you want your old settings to apply, you will
 > want copy `~/Library/Preferences/com.brunchboy.DisplayWatcher.plist`
 > to `~/Library/Preferences/org.deepsymmetry.DisplayWatcher.plist`
 > after [quitting](#quitting-displaywatcher) the old DisplayWatcher
 > background application using Activity Monitor and before starting
 > the new one. You will also want to remove the old application from
-> your Startup Items, and add the new one. Instructions on how to do
-> all these things can be found below.
+> your Startup Items, and add the new one.
+>
+> Instructions on how to carry out these steps can be found below.
 
 The release archive contains two files, the DisplayWatcher
 application, and the preference pane.
