@@ -22,12 +22,13 @@ To download a current build, go to the
 page.
 
 > :warning: If you are migrating from the pre-GitHub version of
-> DisplayWatcher you will want to delete the old pref pane from your
+> DisplayWatcher you will want to
+> [remove](#uninstalling-displaywatcher) the old pref pane from your
 > System Preferences, since I am using a new bundle ID to go with my
 > Apple Developer account so that I can properly code sign releases.
 >
-> That also means if you want your old settings to apply, you will
-> want copy `~/Library/Preferences/com.brunchboy.DisplayWatcher.plist`
+> That also means if you want your old settings to work, you will need
+> to copy `~/Library/Preferences/com.brunchboy.DisplayWatcher.plist`
 > to `~/Library/Preferences/org.deepsymmetry.DisplayWatcher.plist`
 > after [quitting](#quitting-displaywatcher) the old DisplayWatcher
 > background application using Activity Monitor and before starting
