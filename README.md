@@ -219,3 +219,19 @@ regular "Quit" button or press **Return**; there's no need to use
 Once you click on Quit, DisplayWatcher will stop running until you
 launch it again, or until the next time you log in (if you've got it
 set up as a [Startup Item](#starting-displaywatcher-automatically).
+
+### Uninstalling DisplayWatcher
+
+If you're done with DisplayWatcher and want to get rid of it,
+basically reverse the process you followed to install it. First, if
+it's running, tell it to [quit](#quitting-displaywatcher) as described
+above. Then, drag the DisplayWatcher application into the trash. If
+you want to be graceful about it, you can also manually remove it as a
+Login Item for your account. You'll want to launch System Preferences
+anyway to remove the DisplayWatcher preference pane.
+
+Simply control-click (or two-finger click or right-click) on the
+DisplayWatcher icon in System Preferences, and choose to remove the
+preference pane. It will be uninstalled for you:
+
+![Removing pref pane](doc/assets/removingPane.png)
