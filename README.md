@@ -34,7 +34,8 @@ utilities folder on my own system.
 Once you've moved it to where you want to keep it, you can launch it,
 by simply double-clicking it in the Finder. You will need to do this
 once before the preference pane will work right. (You will also want
-to set it up to run each time you log in, as described below.)
+to set it up to run each time you log in, as described
+[below](#starting-displaywatcher-automatically).)
 
 When you launch DisplayWatcher, you may be surprised to find nothing
 at all happening. No windows or menus appear, not even an icon in the
