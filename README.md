@@ -66,7 +66,7 @@ System Preferences will install and open the pane for you, and you are
 ready for the next step.
 
 
-### Configuring DisplayWatcher
+## Configuring DisplayWatcher
 
 The first time you open the DisplayWatcher preference pane it will
 contain no file assignments. Each time you open it, the preference
@@ -173,7 +173,7 @@ for a bit and takes Mail back online so it can detect that the tunnels
 it needs are back up. The "Clear" button removes the wake-up file
 assignment.
 
-### Starting DisplayWatcher Automatically
+## Starting DisplayWatcher Automatically
 
 Once you've decided you like DisplayWatcher, you won't want to have to
 manually launch every time you restart your Mac (or log out and back
@@ -196,7 +196,7 @@ remove it.
 
 ![Added to Login Items](doc/assets/loginItemsAdded.png)
 
-### Quitting DisplayWatcher
+## Quitting DisplayWatcher
 
 If, for some reason, you want DisplayWatcher to exit, the easiest way
 to tell it to quit is to use Apple's Activity Monitor. You'll find it
@@ -220,7 +220,7 @@ Once you click on Quit, DisplayWatcher will stop running until you
 launch it again, or until the next time you log in (if you've got it
 set up as a [Startup Item](#starting-displaywatcher-automatically).
 
-### Uninstalling DisplayWatcher
+## Uninstalling DisplayWatcher
 
 If you're done with DisplayWatcher and want to get rid of it,
 basically reverse the process you followed to install it. First, if
@@ -235,3 +235,33 @@ DisplayWatcher icon in System Preferences, and choose to remove the
 preference pane. It will be uninstalled for you:
 
 ![Removing pref pane](doc/assets/removingPane.png)
+
+
+## Building DisplayWatcher
+
+If you want to make your own version with new features, the
+[Xcode](https://developer.apple.com/xcode/) project for the
+application is in [DisplayWatcher](DisplayWatcher), and the project
+for the preference pane is in
+[DisplayWatcherPane](DisplayWatcherPane). Some application header
+files are referenced from within the preference pane project using
+project-relative references, so be sure to keep those folders next to
+each other and named the same, or you will need to fix the projects.
+
+As things stand, there are a great many warnings about deprecated APIs
+and the like, which is not surprising because this code was written
+fifteen years ago. It frankly amazes me that I was able to get it
+building again in just an afternoon. If I get ambitious, I may clean
+it up, and also add some more instructions and background information
+about how it works. However, if anyone else would like to do those
+things, pull requests would be welcome too!
+
+
+## Licenses
+
+<a href="http://deepsymmetry.org"><img align="right" alt="Deep Symmetry"
+ src="doc/assets/DS-logo-bw-200-padded-left.png" width="216" height="123"></a>
+
+Copyright © 2004&ndash;2019 [Deep Symmetry, LLC](http://deepsymmetry.org)
+
+Distributed under the [GNU General Public License, version 3](LICENSE).
