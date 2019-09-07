@@ -33,7 +33,7 @@ page.
 > after [quitting](#quitting-displaywatcher) the old DisplayWatcher
 > background application using Activity Monitor and before starting
 > the new one. You will also want to remove the old application from
-> your Startup Items, and add the new one.
+> your Login Items, and add the new one.
 >
 > Instructions on how to carry out these steps can be found below.
 
