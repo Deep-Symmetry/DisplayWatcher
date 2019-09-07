@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		385ED4180629E666000C23BF /* DisplayConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 385ED4140629E666000C23BF /* DisplayConfiguration.h */; };
+		385ED4190629E666000C23BF /* DisplayConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 385ED4150629E666000C23BF /* DisplayConfiguration.m */; };
+		385ED41A0629E666000C23BF /* DisplayPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = 385ED4160629E666000C23BF /* DisplayPosition.h */; };
+		385ED41B0629E666000C23BF /* DisplayPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 385ED4170629E666000C23BF /* DisplayPosition.m */; };
+		385ED504062A313F000C23BF /* FileIconCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 385ED502062A313F000C23BF /* FileIconCell.h */; };
+		385ED505062A313F000C23BF /* FileIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 385ED503062A313F000C23BF /* FileIconCell.m */; };
+		385ED56D062A49BF000C23BF /* DisplayConfigurationCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 385ED56B062A49BF000C23BF /* DisplayConfigurationCell.h */; };
+		385ED56E062A49BF000C23BF /* DisplayConfigurationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 385ED56C062A49BF000C23BF /* DisplayConfigurationCell.m */; };
+		8D202CEA0486D31800D8A456 /* DisplayWatcherPane_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA20370C41700C91783 /* DisplayWatcherPane_Prefix.pch */; };
+		8D202CEB0486D31800D8A456 /* DisplayWatcherPanePref.h in Headers */ = {isa = PBXBuildFile; fileRef = F506C03C013D9D7901CA16C8 /* DisplayWatcherPanePref.h */; };
+		8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D202CEE0486D31800D8A456 /* DisplayWatcherPanePref.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F506C040013D9D8001CA16C8 /* DisplayWatcherPanePref.tiff */; };
+		8D202CEF0486D31800D8A456 /* DisplayWatcherPanePref.nib in Resources */ = {isa = PBXBuildFile; fileRef = F506C042013D9D8C01CA16C8 /* DisplayWatcherPanePref.nib */; };
+		8D202CF10486D31800D8A456 /* DisplayWatcherPanePref.m in Sources */ = {isa = PBXBuildFile; fileRef = F506C03D013D9D7901CA16C8 /* DisplayWatcherPanePref.m */; };
+		8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F506C035013D953901CA16C8 /* PreferencePanes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCFA20370C41700C91783 /* DisplayWatcherPane_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayWatcherPane_Prefix.pch; sourceTree = "<group>"; };
+		380A81FB23242FA100D3E0E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		380A81FC23242FC100D3E0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/DisplayWatcherPanePref.nib; sourceTree = "<group>"; };
+		385ED4140629E666000C23BF /* DisplayConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DisplayConfiguration.h; path = ../DisplayWatcher/DisplayConfiguration.h; sourceTree = SOURCE_ROOT; };
+		385ED4150629E666000C23BF /* DisplayConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = DisplayConfiguration.m; path = ../DisplayWatcher/DisplayConfiguration.m; sourceTree = SOURCE_ROOT; };
+		385ED4160629E666000C23BF /* DisplayPosition.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DisplayPosition.h; path = ../DisplayWatcher/DisplayPosition.h; sourceTree = SOURCE_ROOT; };
+		385ED4170629E666000C23BF /* DisplayPosition.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = DisplayPosition.m; path = ../DisplayWatcher/DisplayPosition.m; sourceTree = SOURCE_ROOT; };
+		385ED502062A313F000C23BF /* FileIconCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FileIconCell.h; sourceTree = "<group>"; };
+		385ED503062A313F000C23BF /* FileIconCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FileIconCell.m; sourceTree = "<group>"; };
+		385ED56B062A49BF000C23BF /* DisplayConfigurationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayConfigurationCell.h; sourceTree = "<group>"; };
+		385ED56C062A49BF000C23BF /* DisplayConfigurationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayConfigurationCell.m; sourceTree = "<group>"; };
+		8D202CF70486D31800D8A456 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D202CF80486D31800D8A456 /* DisplayWatcher.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisplayWatcher.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
+		F506C03C013D9D7901CA16C8 /* DisplayWatcherPanePref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayWatcherPanePref.h; sourceTree = "<group>"; };
+		F506C03D013D9D7901CA16C8 /* DisplayWatcherPanePref.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayWatcherPanePref.m; sourceTree = "<group>"; };
+		F506C040013D9D8001CA16C8 /* DisplayWatcherPanePref.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = DisplayWatcherPanePref.tiff; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D202CF20486D31800D8A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */,
+				8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* DisplayWatcherPane */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA10370C40200C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = DisplayWatcherPane;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D202CF70486D31800D8A456 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				F506C040013D9D8001CA16C8 /* DisplayWatcherPanePref.tiff */,
+				F506C042013D9D8C01CA16C8 /* DisplayWatcherPanePref.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				385ED4140629E666000C23BF /* DisplayConfiguration.h */,
+				385ED4150629E666000C23BF /* DisplayConfiguration.m */,
+				385ED56B062A49BF000C23BF /* DisplayConfigurationCell.h */,
+				385ED56C062A49BF000C23BF /* DisplayConfigurationCell.m */,
+				385ED4160629E666000C23BF /* DisplayPosition.h */,
+				385ED4170629E666000C23BF /* DisplayPosition.m */,
+				F506C03C013D9D7901CA16C8 /* DisplayWatcherPanePref.h */,
+				F506C03D013D9D7901CA16C8 /* DisplayWatcherPanePref.m */,
+				385ED502062A313F000C23BF /* FileIconCell.h */,
+				385ED503062A313F000C23BF /* FileIconCell.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				F506C035013D953901CA16C8 /* PreferencePanes.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D202CF80486D31800D8A456 /* DisplayWatcher.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA10370C40200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCFA20370C41700C91783 /* DisplayWatcherPane_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D202CE90486D31800D8A456 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CEA0486D31800D8A456 /* DisplayWatcherPane_Prefix.pch in Headers */,
+				8D202CEB0486D31800D8A456 /* DisplayWatcherPanePref.h in Headers */,
+				385ED4180629E666000C23BF /* DisplayConfiguration.h in Headers */,
+				385ED41A0629E666000C23BF /* DisplayPosition.h in Headers */,
+				385ED504062A313F000C23BF /* FileIconCell.h in Headers */,
+				385ED56D062A49BF000C23BF /* DisplayConfigurationCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D202CE80486D31800D8A456 /* DisplayWatcherPane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4900CFE52324287500809115 /* Build configuration list for PBXNativeTarget "DisplayWatcherPane" */;
+			buildPhases = (
+				8D202CE90486D31800D8A456 /* Headers */,
+				8D202CEC0486D31800D8A456 /* Resources */,
+				8D202CF00486D31800D8A456 /* Sources */,
+				8D202CF20486D31800D8A456 /* Frameworks */,
+				8D202CF50486D31800D8A456 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisplayWatcherPane;
+			productInstallPath = "$(HOME)/Library/PreferencePanes";
+			productName = DisplayWatcherPane;
+			productReference = 8D202CF80486D31800D8A456 /* DisplayWatcher.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+			};
+			buildConfigurationList = 4900CFE92324287500809115 /* Build configuration list for PBXProject "DisplayWatcherPane" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* DisplayWatcherPane */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D202CE80486D31800D8A456 /* DisplayWatcherPane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D202CEC0486D31800D8A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */,
+				8D202CEE0486D31800D8A456 /* DisplayWatcherPanePref.tiff in Resources */,
+				8D202CEF0486D31800D8A456 /* DisplayWatcherPanePref.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D202CF50486D31800D8A456 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D202CF00486D31800D8A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF10486D31800D8A456 /* DisplayWatcherPanePref.m in Sources */,
+				385ED4190629E666000C23BF /* DisplayConfiguration.m in Sources */,
+				385ED41B0629E666000C23BF /* DisplayPosition.m in Sources */,
+				385ED505062A313F000C23BF /* FileIconCell.m in Sources */,
+				385ED56E062A49BF000C23BF /* DisplayConfigurationCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				380A81FB23242FA100D3E0E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F506C042013D9D8C01CA16C8 /* DisplayWatcherPanePref.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				380A81FC23242FC100D3E0E9 /* Base */,
+			);
+			name = DisplayWatcherPanePref.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4900CFE62324287500809115 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				DEVELOPMENT_TEAM = A8H53PWE4J;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DisplayWatcherPane_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Bundle;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-bundle",
+					"-twolevel_namespace",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deepsymmetry.DisplayWatcherPrefsPane;
+				PRODUCT_NAME = DisplayWatcher;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = prefPane;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		4900CFE72324287500809115 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = A8H53PWE4J;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DisplayWatcherPane_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-bundle",
+					"-twolevel_namespace",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deepsymmetry.DisplayWatcherPrefsPane;
+				PRODUCT_NAME = DisplayWatcher;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = prefPane;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		4900CFE82324287500809115 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8H53PWE4J;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DisplayWatcherPane_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-bundle",
+					"-twolevel_namespace",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deepsymmetry.DisplayWatcherPrefsPane;
+				PRODUCT_NAME = DisplayWatcher;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Default;
+		};
+		4900CFEA2324287500809115 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Development;
+		};
+		4900CFEB2324287500809115 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Deployment;
+		};
+		4900CFEC2324287500809115 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4900CFE52324287500809115 /* Build configuration list for PBXNativeTarget "DisplayWatcherPane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4900CFE62324287500809115 /* Development */,
+				4900CFE72324287500809115 /* Deployment */,
+				4900CFE82324287500809115 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		4900CFE92324287500809115 /* Build configuration list for PBXProject "DisplayWatcherPane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4900CFEA2324287500809115 /* Development */,
+				4900CFEB2324287500809115 /* Deployment */,
+				4900CFEC2324287500809115 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
