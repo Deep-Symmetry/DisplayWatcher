@@ -15,7 +15,7 @@ The [original project
 page](http://www.brunchboy.com/displaywatcher.shtml) describes the
 history and motivation for it.
 
-[![License](https://img.shields.io/github/license/Deep-Symmetry/DisplayWatchher?color=blue)](#license)
+[![License](https://img.shields.io/github/license/Deep-Symmetry/DisplayWatcher?color=blue)](#license)
 
 ## Installation
 
@@ -278,7 +278,7 @@ things, pull requests would be welcome too!
 ## Licenses
 
 <a href="http://deepsymmetry.org"><img align="right" alt="Deep Symmetry"
- src="assets/DS-logo-github.png" width="250" height="150"></a>
+ src="doc/assets/DS-logo-github.png" width="250" height="150"></a>
 
 Copyright © 2004&ndash;2019 [Deep Symmetry, LLC](http://deepsymmetry.org)
 
